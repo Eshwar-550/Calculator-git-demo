@@ -27,6 +27,9 @@ def calculator():
     if choice == "5":
       print("Goodbye!")
       break
+
+    if choice not in ("1","2","3","4","5"):
+      print("Invalid Option. Please enter from above options.")
     else:
       num1 = int(input("Enter first number:"))
       num2 = int(input("Enter second number:"))
